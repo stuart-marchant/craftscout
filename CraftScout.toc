@@ -1,0 +1,40 @@
+## Interface: 16001
+## Title: CraftScout
+## Notes: Profession helper: skill-up crafts you have mats for, trainers for your next rank, recipes to learn and where. /craftscout
+## Author: Stuart + Claude
+## Version: 0.2.0
+## IconTexture: Interface\Icons\Trade_Tailoring
+## AddonCompartmentFunc: CraftScout_OnCompartmentClick
+## OptionalDeps: Questie, TomTom, ProfessionDB
+## SavedVariables: CraftScoutDB
+## SavedVariablesPerCharacter: CraftScoutCharDB
+
+# LibProfessionDB-1.0 (MIT, Pimptasty) - WoW Forever data. LibStub keeps the newest copy
+# if the standalone ProfessionDB addon is also installed.
+# DisenchantForever data (MIT, APGM82) - Forever disenchant brackets.
+Libs\LibStub\LibStub.lua
+Libs\LibProfessionDB-1.0\LibProfessionDB-1.0.lua
+Libs\LibProfessionDB-1.0\Data\Alchemy.lua
+Libs\LibProfessionDB-1.0\Data\Blacksmithing.lua
+Libs\LibProfessionDB-1.0\Data\Cooking.lua
+Libs\LibProfessionDB-1.0\Data\Enchanting.lua
+Libs\LibProfessionDB-1.0\Data\Engineering.lua
+Libs\LibProfessionDB-1.0\Data\Firstaid.lua
+Libs\LibProfessionDB-1.0\Data\Fishing.lua
+Libs\LibProfessionDB-1.0\Data\Leatherworking.lua
+Libs\LibProfessionDB-1.0\Data\Mining.lua
+Libs\LibProfessionDB-1.0\Data\Tailoring.lua
+Libs\LibProfessionDB-1.0\Data\RecipeItems.lua
+Libs\LibProfessionDB-1.0\Data\HiddenRecipes.lua
+Libs\LibProfessionDB-1.0\Data\AcquireMethods.lua
+Libs\LibProfessionDB-1.0\Data\Sources.lua
+Libs\LibProfessionDB-1.0\Data\SourceNames.lua
+
+Libs\DisenchantForever\Materials.lua
+Libs\DisenchantForever\NoDisenchant.lua
+Libs\DisenchantForever\OwnLoot.lua
+
+Core.lua
+Disenchant.lua
+UI.lua
+Options.lua
